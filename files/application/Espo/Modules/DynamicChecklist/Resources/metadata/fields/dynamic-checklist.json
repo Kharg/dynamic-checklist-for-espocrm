@@ -1,0 +1,40 @@
+{
+   "view":"dynamic-checklist:views/fields/dynamic-checklist",
+    
+   "params":[
+      {
+         "name":"required",
+         "type":"bool",
+         "default":false
+      },
+      {
+         "name": "allowCustomOptions",
+         "type": "bool",
+         "hidden": true
+      },
+      {
+         "name": "noEmptyString",
+         "type": "bool",
+         "default": true
+      },
+      {
+         "name": "displayAsList",
+         "type":"bool",
+         "default": true   
+      }
+      
+   ],
+   "validationList": [
+      "required"
+   ],
+   "filter": true,
+   "notCreatable": false,
+   "notSortable": true,
+   "fieldDefs":{
+      "type":"jsonArray",
+      "storeArrayValues": false
+   },
+   "translatedOptions": true,
+   "dynamicLogicOptions": true,
+   "personalData": false
+}

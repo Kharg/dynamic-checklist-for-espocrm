@@ -1,0 +1,10 @@
+{
+    "name": "Dynamic Checklist Field Type",
+    "version": "2.0.1",
+    "acceptableVersions": [
+        ">=6.0.6"
+    ],
+    "releaseDate": "2020-12-01",
+    "author": "Omar A Gonsenheim",
+    "description": "Dynamic Checklist Field Type for EspoCRM"
+}
