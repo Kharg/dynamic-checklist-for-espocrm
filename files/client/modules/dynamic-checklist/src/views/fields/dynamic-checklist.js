@@ -2,7 +2,7 @@
  * This file is part of EspoCRM.
  *
  * EspoCRM - Open Source CRM application.
- * Copyright (C) 2014-2019 Yuri Kuznetsov, Taras Machyshyn, Oleksiy Avramenko
+ * Copyright (C) 2014-2023 Yuri Kuznetsov, Taras Machyshyn, Oleksiy Avramenko
  * Website: https://www.espocrm.com
  *
  * EspoCRM is free software: you can redistribute it and/or modify
@@ -102,13 +102,13 @@ define('dynamic-checklist:views/fields/dynamic-checklist', ['views/fields/array'
             }
             var dataValue = this.escapeValue(JSON.stringify(jsonItem));
             var itemHtml = '<div class="list-group-item" data-value="'+dataValue+'" data-label="'+label+'" style="cursor: default;">';
-            itemHtml += '<div style="float:left; margin-right:5px; vertical-align:top;"><input type="checkbox" style="vertical-align:top;" data-name="'+dataName+'" id="'+id+'"';
+            itemHtml += '<div style="float:left; margin-right:5px; vertical-align:top; margin: -0px 0 -0px;"><input type="checkbox" class="form-checkbox" style="vertical-align:top;" data-name="'+dataName+'" id="'+id+'"';
             if(isChecked) {
                 itemHtml += ' checked ';
             }
             itemHtml += '></div> ';
             //itemHtml += '<input class = "main-element form-control" type="text" class="checklist-label" value="'+label+'">';
-            itemHtml += '<div style="display:inline-block;max-width:85%;"><label for="'+id+'" class="checklist-label" style="overflow-y: auto !important;">'+label+'</label></div>';
+            itemHtml += '<div style="display:inline-block;max-width:85%;"><label for="'+id+'" class="checklist-label" style="overflow-y: center !important;">'+label+'</label></div>';
             itemHtml += '<div style="float:right; width:10%;"><a href="javascript:" class="pull-right" data-value="'+label+'" data-action="removeValue"><span class="fas fa-trash-alt"></span></a>';
             itemHtml += '<a href="javascript:" class="pull-right" data-value="'+label+'" data-action="editValue" style="margin-right:10px;"><span class="fas fa-pencil-alt fa-sm"></span></a>';
             itemHtml += '</div></div>';
@@ -219,7 +219,7 @@ define('dynamic-checklist:views/fields/dynamic-checklist', ['views/fields/array'
                 }
                 displayHtml += '<div style="padding-top:2px;padding-bottom:3px;">';
                 displayHtml += '<div style="display:inline-block; margin-right:5px; vertical-align:top;">';
-                displayHtml += '<input type="checkbox" data-name="'+dataName+'" id="'+id+'"';
+                displayHtml += '<input type="checkbox" class="form-checkbox" data-name="'+dataName+'" id="'+id+'"';
                 if(isChecked) {
                     displayHtml += ' checked ';
                 }

@@ -1,8 +1,8 @@
 {
     "name": "Dynamic Checklist Field Type",
-    "version": "2.0.1",
+    "version": "2.1.0",
     "acceptableVersions": [
-        ">=6.0.6"
+        ">=7.3.0"
     ],
     "releaseDate": "2020-12-01",
     "author": "Omar A Gonsenheim",
