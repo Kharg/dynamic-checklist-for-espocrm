@@ -1,5 +1,8 @@
 {
     "fieldTypes": {
         "dynamic-checklist": "Lista Interactiva"
+    },
+    "fields": {
+        "strikeChecked": "Huelga Elementos Controlados"
     }
 }

@@ -18,6 +18,11 @@
          "default": true
       },
       {
+         "name": "strikeChecked",
+         "type": "bool",
+         "default": false
+      },
+      {
          "name": "displayAsList",
          "type":"bool",
          "default": true   

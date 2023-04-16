@@ -1,10 +1,12 @@
 {
     "name": "Dynamic Checklist Field Type",
-    "version": "2.1.1",
+    "version": "2.2.0",
+    "type": "extension",
     "acceptableVersions": [
         ">=7.3.0"
     ],
-    "releaseDate": "2020-12-01",
-    "author": "Omar A Gonsenheim",
+    "releaseDate": "16/04/2023",
+    "author": "Omar A Gonsenheim & Andrew Fontana",
+    "checkVersionUrl": "www.kharg.eu/checkVersion",
     "description": "Dynamic Checklist Field Type for EspoCRM"
 }

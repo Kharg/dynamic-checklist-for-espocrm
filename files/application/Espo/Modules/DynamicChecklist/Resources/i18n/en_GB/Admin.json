@@ -1,5 +1,8 @@
 {
     "fieldTypes": {
         "dynamic-checklist": "Dynamic Checklist"
+    },
+    "fields": {
+        "strikeChecked": "Strike Checked Items"
     }
 }

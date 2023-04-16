@@ -1,0 +1,8 @@
+{
+    "fieldTypes": {
+        "dynamic-checklist": "Checklist Dinamica"
+    },
+    "fields": {
+        "strikeChecked": "Taglia Elementi Selezionati"
+    }
+}
