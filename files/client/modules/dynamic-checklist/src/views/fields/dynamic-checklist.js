@@ -192,6 +192,11 @@ define('dynamic-checklist:views/fields/dynamic-checklist', ['views/fields/array'
             return list.length ? `<div class="${itemClassName}">${list.join(`</div><div class="${itemClassName}">`)}</div>` : '';
         },
 
+        
+        escapeValue: function (value) {
+            return Handlebars.Utils.escapeExpression(value);
+        },
+
         fetchFromDom: function () {
             const selectedItems = [];
         
