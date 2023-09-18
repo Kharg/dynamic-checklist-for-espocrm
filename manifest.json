@@ -1,6 +1,6 @@
 {
     "name": "Dynamic Checklist Field Type",
-    "version": "2.2.0",
+    "version": "2.2.1",
     "type": "extension",
     "acceptableVersions": [
         ">=7.3.0"
