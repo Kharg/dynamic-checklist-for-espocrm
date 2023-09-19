@@ -1,0 +1,8 @@
+{
+    "fieldTypes": {
+        "dynamic-checklist": "Dynamische Checkliste"
+    },
+    "fields": {
+        "strikeChecked": "Markierte Einträge durchstreichen"
+    }
+}

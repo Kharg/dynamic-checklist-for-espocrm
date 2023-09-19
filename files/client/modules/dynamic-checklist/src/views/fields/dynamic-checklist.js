@@ -62,10 +62,12 @@ define('dynamic-checklist:views/fields/dynamic-checklist', ['views/fields/array'
 
         events: {
             'click [data-action="removeValue"]': function (e) {
+                e.preventDefault();
                 var value = $(e.currentTarget).data('value').toString();
                 this.removeValue(value);
             },
             'click [data-action="editValue"]': function (e) {
+                e.preventDefault();
                 var existingValue = $(e.currentTarget).data('value').toString();
                 this.editLabel(existingValue);
             }
@@ -93,8 +95,8 @@ define('dynamic-checklist:views/fields/dynamic-checklist', ['views/fields/array'
                   </div>
                 </div>
                 <div style="display: flex; align-items: center;">
-                  <a href="javascript:" data-value="${labelValue}" data-action="editValue" style="margin-right: 10px;"><span class="fas fa-pencil-alt fa-sm"></span></a>
-                  <a href="javascript:" data-value="${labelValue}" data-action="removeValue"><span class="fas fa-trash-alt"></span></a>
+                  <a href="#" data-value="${labelValue}" data-action="editValue" style="margin-right: 10px;"><span class="fas fa-pencil-alt fa-sm"></span></a>
+                  <a href="#" data-value="${labelValue}" data-action="removeValue"><span class="fas fa-trash-alt"></span></a>
                 </div>
               </div>
             </div>
